@@ -81,6 +81,24 @@ The "secret sauce" of ExamAce is how it parses questions. Use these markers in y
 
 ---
 
+## 🚀 Deployment (Netlify)
+
+If you are deploying this project to **Netlify**, you might encounter a `vite: Permission denied` error. Follow these steps to resolve it:
+
+### 1. Configure Environment Variables
+In the Netlify UI (Site settings → Build & deploy → Environment), add the following variable:
+- **Key**: `NPM_FLAGS`
+- **Value**: `--include=dev`
+
+### 2. Update Build Command
+Ensure your build command in Netlify is set to:
+```bash
+npm run build
+```
+*(We have updated the project's internal build script to use `npx vite build` to bypass common permission issues.)*
+
+---
+
 <div align="center">
 
 ### Made with ❤️ for Students by [ExamAce Team]

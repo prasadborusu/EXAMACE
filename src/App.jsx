@@ -33,8 +33,9 @@ const Navbar = ({ dark, setDark, breadcrumbs }) => {
 }
 
 const Footer = () => (
-  <footer className="flex-center" style={{ padding: '2rem', marginTop: 'auto', opacity: 0.6 }}>
+  <footer className="flex-center" style={{ padding: '2rem', marginTop: 'auto', opacity: 0.6, flexDirection: 'column', gap: '0.5rem' }}>
     <p>Made for Students ❤️</p>
+    <p style={{ fontSize: '0.7rem', opacity: 0.5 }}>Made by Prasad</p>
   </footer>
 )
 
