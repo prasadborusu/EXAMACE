@@ -1,0 +1,334 @@
+{
+  "subjects": [
+    {
+      "id": "artificial-intelligence",
+      "name": "Artificial Intelligence",
+      "icon": "Brain",
+      "color": "#818cf8",
+      "modules": [
+        {
+          "id": 1,
+          "marks": {
+            "2": [
+              {
+                "id": "ai-m1-q1",
+                "question": "What is the importance of Artificial Intelligence?",
+                "answer": "**Artificial Intelligence** is crucial because it allows machines to:\n- **Automate** repetitive and mundane tasks.\n- **Analyze** massive datasets far faster than humans.\n- **Solve** complex problems in fields like healthcare and transportation.\n- **Enhance** decision-making processes across global industries."
+              },
+              {
+                "id": "ai-m1-q2",
+                "question": "What is Rational Agent?",
+                "answer": "A **Rational Agent** is an entity that perceives its environment through sensors and acts upon it through actuators.\n\nKey characteristics:\n- It aims to **maximize its performance measure**.\n- It acts based on its **percept sequence** and internal knowledge.\n- It is designed to choose the action that yields the **best possible outcome**."
+              },
+              {
+                "id": "ai-m1-q3",
+                "question": "Define Artificial Intelligence?",
+                "answer": "**Artificial Intelligence (AI)** is the branch of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence.\n\nCore areas include:\n- **Visual perception** and speech recognition.\n- **Decision-making** and language translation.\n- The study of **computational agents** that achieve programmed goals."
+              },
+              {
+                "id": "ai-m1-q4",
+                "question": "List out any three types of Agents?",
+                "answer": "Three common types of intelligent agents are:\n- **Simple Reflex Agents**: Act based only on the current percept.\n- **Model-Based Reflex Agents**: Maintain an internal state to handle hidden parts of the world.\n- **Goal-Based Agents**: Act strategically to achieve specific predefined goals."
+              },
+              {
+                "id": "ai-m1-q5",
+                "question": "List any two properties of environment?",
+                "answer": "Two fundamental properties of a task environment are:\n- **Observability**: Whether it is Fully Observable vs. Partially Observable.\n- **Determinism**: Whether it is Deterministic (predictable) vs. Stochastic (random)."
+              },
+              {
+                "id": "ai-m1-q6",
+                "question": "Give example for dynamic and continuous environment?",
+                "answer": "Driving a taxi in a city is a perfect example of a complex environment.\n\nExample: **Taxi Driving**\n- **Dynamic**: Other vehicles and pedestrians move independently.\n- **Continuous**: Variables like speed and coordinates change smoothly over time."
+              },
+              {
+                "id": "ai-m1-q7",
+                "question": "Define Agent Function?",
+                "answer": "An agent function is a mathematical description or abstract mapping that dictates an agent's behavior by mapping any given percept sequence to a specific action. In practical software implementation, this theoretical function is realized by an agent program running on the agent's physical or computational architecture."
+              },
+              {
+                "id": "ai-m1-q8",
+                "question": "Who is the father of Artificial Intelligence?",
+                "answer": "John McCarthy is widely recognized as one of the primary 'founding fathers' of Artificial Intelligence, as he famously coined the term for the historic Dartmouth Conference held in 1956. Additionally, Alan Turing is heavily credited for providing the foundational concepts of machine intelligence and testing through the renowned Turing Test."
+              },
+              {
+                "id": "ai-m1-q9",
+                "question": "Define PEAS?",
+                "answer": "**PEAS** is a framework used to design and evaluate intelligent agents.\n\nDefinition: **PEAS Components**\n- **P**: Performance measure\n- **E**: Environment\n- **A**: Actuators\n- **S**: Sensors"
+              },
+              {
+                "id": "ai-m1-q10",
+                "question": "What is Agent?",
+                "answer": "An agent is defined as anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators to achieve specific objectives. This broad definition encompasses everything from a simple software program acting in a simulated virtual world to a physical robot interacting with the complex physical world."
+              }
+            ],
+            "8": [
+              {
+                "id": "ai-m1-q8-1",
+                "question": "What are the Applications of Artificial Intelligence?",
+                "answer": "Artificial Intelligence is now a foundational technology used across almost every modern sector.\n\nMajor Applications:\n- **Healthcare**: Used for **disease diagnosis**, robotic surgery, and advanced patient monitoring systems.\n- **Finance**: Helps in **fraud detection**, stock market prediction, and risk analysis.\n- **Education**: Powers **intelligent tutoring systems**, automated grading, and personalized learning.\n- **Transportation**: Powers **self-driving cars**, route optimization, and traffic management.\n- **E-commerce**: Used for **product recommendations**, chatbots, and demand forecasting.\n- **Robotics**: Enables **industrial automation** and performing dangerous tasks.\n- **Gaming**: Creates **intelligent NPCs** and adaptive gameplay experiences.\n- **Cybersecurity**: Identifies **threats**, malware, and unusual network behavior.\n- **Agriculture**: Used for **crop monitoring**, yield prediction, and smart irrigation.\n\nNote: AI improves efficiency, reduces human error, and enhances decision-making across all these domains."
+              },
+              {
+                "id": "ai-m1-q8-2",
+                "question": "What are the Properties of Task Environment?",
+                "answer": "The task environment is the 'world' in which an intelligent agent operates. Understanding its properties is crucial for effective agent design.\n\nKey Properties:\n- **Observable**: **Fully Observable** (complete info) vs. **Partially Observable** (incomplete info).\n- **Deterministic vs Stochastic**: The next state is either **predictable** or involves **randomness/uncertainty**.\n- **Episodic vs Sequential**: Actions are either **independent** or part of a dependent sequence of events.\n- **Static vs Dynamic**: Whether the environment **changes** while the agent is making a decision.\n- **Discrete vs Continuous**: Whether the number of states/actions is **finite** or sweeps across an infinite range.\n- **Single vs Multi-Agent**: Whether the agent acts **alone** or competes/cooperates with other agents.\n- **Known vs Unknown**: Whether the **rules/laws** of the environment are known to the agent beforehand."
+              },
+              {
+                "id": "ai-m1-q8-3",
+                "question": "What is PEAS? Explain Different Agent Environment with their PEAS Description",
+                "answer": "**PEAS** is a formal framework used to specify the task environment of an intelligent agent.\n\nDefinition: **PEAS Components**\n- **P**: **Performance Measure** (The criteria for success).\n- **E**: **Environment** (The external surroundings).\n- **A**: **Actuators** (Tools for performing actions).\n- **S**: **Sensors** (Tools for perceiving input).\n\nExample: **Vacuum Cleaner Agent**\n- **P**: Cleanliness, time efficiency, battery life.\n- **E**: Rooms, dirt, obstacles.\n- **A**: Move left, move right, suck dirt.\n- **S**: Dirt sensor, location sensor.\n\nExample: **Self-Driving Car**\n- **P**: Safety, speed, legal driving, passenger comfort.\n- **E**: Roads, traffic signs, other vehicles, pedestrians.\n- **A**: Steering, accelerator, brakes, signals.\n- **S**: Cameras, LIDAR, GPS, speedometer."
+              },
+              {
+                "id": "ai-m1-q8-4",
+                "question": "What are the Four Basic Types of Agent Program in AI?",
+                "answer": "There are four primary architectures for building intelligent agents, ranging from simple to complex.\n\n1. **Simple Reflex Agents**: These act solely based on **current percepts**, following fixed **condition-action rules**.\n2. **Model-Based Reflex Agents**: They maintain an **internal state** (memory) to handle partially observable environments.\n3. **Goal-Based Agents**: They act strategically by evaluating which actions will lead to a **predefined goal**.\n4. **Utility-Based Agents**: Use a **utility function** to choose the action that provides the highest 'satisfaction' or best trade-off.\n\nNote: Advanced systems often integrate **Learning Agents**, which allow these programs to improve their performance automatically over time."
+              },
+              {
+                "id": "ai-m1-q8-5",
+                "question": "Write the Agent Program for Vacuum Cleaner World and Define Agent.",
+                "answer": "Definition: **Intelligent Agent**\nAn agent is anything that can **perceive** its environment through sensors and **act** upon it through actuators to achieve goals.\n\nExample: **Vacuum Cleaner Program**\nThis environment consists of rooms (A and B) that can be Clean or Dirty.\n\n**Algorithm Logic**:\n- **IF** Current Square is Dirty **THEN** **SUCK**\n- **ELSE IF** Current Location = A **THEN** **MOVE RIGHT**\n- **ELSE IF** Current Location = B **THEN** **MOVE LEFT**\n\nNote: This is a classic example of a **Simple Reflex Agent** that operates in a cycle of perception, reasoning, and action."
+              },
+              {
+                "id": "ai-m1-q8-6",
+                "question": "Explain the History of Artificial Intelligence",
+                "answer": "Artificial Intelligence has evolved through several distinct phases since its inception.\n\nTimeline of Progress:\n- **1950**: Alan Turing proposes the **Turing Test** to define machine intelligence.\n- **1956**: John McCarthy officially coins the term **'Artificial Intelligence'** at the Dartmouth Conference.\n- **1960s**: Development of **Early Symbolic Reasoning** and problem-solving programs.\n- **1970s**: The first **'AI Winter'** occurs due to limited computing power and reduced funding.\n- **1980s**: Rise of **Expert Systems** and commercial AI applications in industry.\n- **1990s**: **Machine Learning** begins to flourish; IBM's **Deep Blue** defeats world chess champion Garry Kasparov.\n- **2010s**: **Deep Learning** and Big Data revolutionize computer vision and speech recognition.\n- **Present**: Era of **Generative AI**, autonomous vehicles, and Large Language Models (LLMs)."
+              }
+            ]
+
+          }
+        },
+        {
+          "id": 2,
+          "marks": {
+            "2": [
+              {
+                "id": "ai-m2-q1",
+                "question": "List out any two uninformed search techniques?",
+                "answer": "Two primary examples of uninformed search techniques are Breadth-First Search (BFS), which explores all nodes at the present depth before moving deeper, and Depth-First Search (DFS), which explores as far as possible along each branch before backtracking."
+              },
+              {
+                "id": "ai-m2-q2",
+                "question": "What is Heuristic function?",
+                "answer": "A heuristic function, often denoted as h(n), estimates the cost of the cheapest path from the state at node n to a goal state, providing a smart 'guess' to guide the search process efficiently. It is a core component of informed search algorithms like A*, helping them prioritize which paths to explore first to save computational resources."
+              },
+              {
+                "id": "ai-m2-q3",
+                "question": "Define Problem formulation?",
+                "answer": "Problem formulation is the critical process of deciding what actions and states to consider when designing an AI agent to achieve a specific goal. It involves defining the initial state, the possible actions (transition model), the goal test to determine if the goal is reached, and the path cost function."
+              },
+              {
+                "id": "ai-m2-q4",
+                "question": "What is state space?",
+                "answer": "A state space represents the complete set of all possible states or configurations that a problem or system can be in, connected by actions that transition the system from one state to another. It essentially forms a graph or network where nodes are states and edges represent valid moves or actions the agent can take."
+              },
+              {
+                "id": "ai-m2-q5",
+                "question": "Explain the Blind search technique?",
+                "answer": "Blind search, also known as uninformed search, is a class of searching algorithms that have no additional information about states beyond that provided in the basic problem definition. They systematically generate and explore states based solely on the general structure of the state space without using any heuristic guidance to find the goal."
+              },
+              {
+                "id": "ai-m2-q6",
+                "question": "Differentiate Breadth first search and Depth first search?",
+                "answer": "Breadth-First Search explores the search tree level by level, ensuring the shortest path is found in an unweighted graph, but it requires significant memory. In contrast, Depth-First Search dives deep down a single path until it reaches a leaf node before backtracking, which is more memory-efficient but might not find the optimal path."
+              },
+              {
+                "id": "ai-m2-q7",
+                "question": "What is Backtracking?",
+                "answer": "Backtracking is an algorithmic technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, and removing (backtracking) those solutions that fail to satisfy the constraints of the problem. It is essentially a refined depth-first search that abandons a path as soon as it determines the path cannot possibly lead to a valid solution."
+              },
+              {
+                "id": "ai-m2-q8",
+                "question": "Define BFS.",
+                "answer": "Breadth-First Search (BFS) is a systematic graph traversal algorithm that starts at the root node and explores all of its neighboring nodes at the present depth before moving on to the nodes at the next depth level. It typically uses a FIFO (First-In-First-Out) queue data structure to keep track of the nodes waiting to be explored."
+              },
+              {
+                "id": "ai-m2-q9",
+                "question": "Define DFS.",
+                "answer": "Depth-First Search (DFS) is a graph traversal algorithm that starts at the root node and explores as far as possible along each branch before retreating or backtracking to previous nodes to explore alternate paths. It is typically implemented using a LIFO (Last-In-First-Out) stack data structure or through recursion."
+              },
+              {
+                "id": "ai-m2-q10",
+                "question": "List out informed search technique.",
+                "answer": "Informed search techniques, which use problem-specific knowledge to find solutions more efficiently, include A* (A-Star) Search**, **Greedy Best-First Search**, and **Recursive Best-First Search (RBFS)**. These algorithms actively rely on heuristic functions to estimate the cost to the goal and guide their exploration."
+              }
+            ],
+            "8": []
+          }
+        },
+        {
+          "id": 3,
+          "marks": {
+            "2": [
+              {
+                "id": "ai-m3-q1",
+                "question": "Explain the advantages of Local Search Algorithms.",
+                "answer": "Local search algorithms are highly memory efficient because they usually only keep track of a single current state and its immediate neighbors rather than storing the entire search tree. They are also incredibly effective at finding reasonable solutions in massive or infinite continuous state spaces where traditional systematic search algorithms would fail."
+              },
+              {
+                "id": "ai-m3-q2",
+                "question": "Differentiate between local maximum and global maximum in a state space.",
+                "answer": "A local maximum is a state that has a higher value than all of its immediate neighboring states but is not the absolute best possible state overall. A global maximum is the absolute highest peak in the entire state space landscape, representing the optimal solution to the problem among all possible configurations."
+              },
+              {
+                "id": "ai-m3-q3",
+                "question": "Define current state in state space.",
+                "answer": "The current state in a state space refers to the specific configuration or node where the AI agent is presently located during its search or execution process. In local search algorithms, the agent continuously evaluates the neighbors of this current state to decide its next optimal move."
+              },
+              {
+                "id": "ai-m3-q4",
+                "question": "What are the drawbacks in hill climbing?",
+                "answer": "Hill climbing frequently gets stuck in local maxima (peaks that are not the global best), plateaus (flat areas where all neighbors have the same value, providing no direction), and ridges (sequences of local maxima that are difficult for single-variable moves to navigate). Because it is a greedy algorithm that never backtracks, it cannot easily escape these topological traps."
+              },
+              {
+                "id": "ai-m3-q5",
+                "question": "What is Simulated annealing.",
+                "answer": "Simulated annealing is a probabilistic optimization algorithm inspired by the physical process of heating and slowly cooling metals to eliminate defects. It occasionally accepts worse moves to escape local maxima, with the probability of accepting worse moves decreasing over time as the algorithmic 'temperature' drops."
+              },
+              {
+                "id": "ai-m3-q6",
+                "question": "Explain hill climbing search Algorithm.",
+                "answer": "The hill-climbing search algorithm is a greedy local search technique that continuously moves in the direction of increasing value or elevation, attempting to find the highest peak of a landscape. It terminates when it reaches a peak where no neighbor has a higher value, meaning it only looks at immediate, uphill improvements."
+              },
+              {
+                "id": "ai-m3-q7",
+                "question": "Define local beam search.",
+                "answer": "Local beam search is an algorithm that keeps track of 'k' states rather than just one; it generates all successors of these 'k' states at each step and then selects the 'k' best successors from the entire pool to become the next current states. This allows it to explore multiple parts of the state space concurrently while sharing information between the search threads."
+              },
+              {
+                "id": "ai-m3-q8",
+                "question": "What is simulated annealing.",
+                "answer": "Simulated annealing is a stochastic local search method that helps avoid getting trapped in local optima by allowing 'bad' moves (moves that worsen the objective function) with a probability. This probability is high at the start of the search but decreases gradually over time as the algorithm 'cools' down."
+              },
+              {
+                "id": "ai-m3-q9",
+                "question": "Discuss the steps in genetic algorithm.",
+                "answer": "A genetic algorithm typically involves initializing a population of random states, evaluating their fitness, selecting the best-performing individuals as parents, performing crossover (recombination) to create offspring, and introducing random mutations to maintain diversity. This cycle repeats over multiple generations to evolve towards an optimal solution."
+              },
+              {
+                "id": "ai-m3-q10",
+                "question": "What is global maximum in state space.",
+                "answer": "The global maximum in a state space landscape is the single state that has the highest objective function value across the entire domain of possible states. Reaching this specific state means the agent has successfully found the optimal, most perfect solution to the given problem."
+              }
+            ],
+            "8": []
+          }
+        },
+        {
+          "id": 4,
+          "marks": {
+            "2": [
+              {
+                "id": "ai-m4-q1",
+                "question": "Provide one example of a real-world scenario where uncertainty plays a significant role.",
+                "answer": "Medical diagnosis is a classic scenario heavily reliant on handling uncertainty, as a doctor or AI system must infer the underlying disease (which is hidden) based on a combination of symptoms (observable but probabilistic), patient history, and inherently imperfect test results."
+              },
+              {
+                "id": "ai-m4-q2",
+                "question": "Define uncertainty in the context of knowledge representation?",
+                "answer": "In knowledge representation, uncertainty refers to situations where an agent lacks complete or precise information about the state of the world due to partial observability, non-determinism, noisy sensors, or sheer complexity. It requires the agent to reason using probabilities and degrees of belief rather than strict logical certainties."
+              },
+              {
+                "id": "ai-m4-q3",
+                "question": "How are nodes and edges in a Bayesian network semantically interpreted?",
+                "answer": "In a Bayesian network, the nodes represent random variables (which can be observable quantities, latent variables, or hypotheses), while the directed edges represent direct probabilistic dependencies or causal influences between those variables. The absence of an edge between two nodes indicates conditional independence."
+              },
+              {
+                "id": "ai-m4-q4",
+                "question": "Explain the concept of conditional probability in Bayesian networks.",
+                "answer": "Conditional probability in a Bayesian network quantifies the likelihood of a specific node taking on a certain value given the known values of its parent nodes. This is explicitly represented in Conditional Probability Tables (CPTs) attached to each node, mapping out how the parent variables probabilistically influence the child variable."
+              },
+              {
+                "id": "ai-m4-q5",
+                "question": "Why is modeling time crucial in probabilistic reasoning over dynamic systems?",
+                "answer": "Modeling time is essential because dynamic systems change as time progresses; an agent must understand how the state of the world at the previous time step influences the state at the current time step. Without temporal modeling, an agent cannot predict future events, track moving objects, or understand sequences of actions."
+              },
+              {
+                "id": "ai-m4-q6",
+                "question": "What does the Markov assumption assume about the past and future in a sequence of events?",
+                "answer": "The Markov assumption posits that the current state of a system depends only on the immediately preceding state, and is conditionally independent of all other earlier states. This dramatically simplifies computation by assuming the present state fully captures all relevant historical information needed to predict the future."
+              },
+              {
+                "id": "ai-m4-q7",
+                "question": "How does filtering differ from smoothing in temporal inference?",
+                "answer": "Filtering is the process of estimating the current state of a system given all evidence observed up to the present moment, which is useful for real-time tracking. Smoothing, on the other hand, is estimating a past state given all evidence up to the present, utilizing 'future' observations (relative to that past state) to provide a much more accurate retroactive estimate."
+              },
+              {
+                "id": "ai-m4-q8",
+                "question": "Define temporal inference in simple terms.",
+                "answer": "Temporal inference is the process of using reasoning and probabilistic models to deduce information about a sequence of events over time. It involves tasks like figuring out what is happening right now based on past and present sensor readings, predicting what will happen next, or deducing what must have happened in the past."
+              },
+              {
+                "id": "ai-m4-q9",
+                "question": "In what types of applications are hidden Markov models commonly used?",
+                "answer": "Hidden Markov Models (HMMs) are widely used in applications involving sequential data where the true states are unobserved, such as speech recognition systems, natural language processing (like part-of-speech tagging), computational biology (like DNA sequence analysis), and gesture recognition."
+              },
+              {
+                "id": "ai-m4-q10",
+                "question": "Provide a basic definition of a hidden Markov model.",
+                "answer": "A Hidden Markov Model (HMM) is a probabilistic sequence model that assumes the system being modeled is a Markov process with unobservable (hidden) states, but these hidden states generate observable outputs. The primary goal is usually to infer the sequence of hidden states based on the sequence of observations."
+              }
+            ],
+            "8": []
+          }
+        },
+        {
+          "id": 5,
+          "marks": {
+            "2": [
+              {
+                "id": "ai-m5-q1",
+                "question": "What defines a robot, and how does it differ from other automated systems?",
+                "answer": "A robot is defined as an autonomous or semi-autonomous physical machine equipped with sensors to perceive its environment and actuators to act upon it to achieve specific goals. Unlike pure software AI or rigid factory automation, robots are designed to adaptively navigate and manipulate the physical, often unpredictable, real world."
+              },
+              {
+                "id": "ai-m5-q2",
+                "question": "Name two essential components of robot hardware and their functions.",
+                "answer": "Two essential hardware components are sensors (such as cameras, LIDAR, or tactile sensors) which allow the robot to gather data about its environment, and actuators (such as electric motors or hydraulic cylinders) which convert energy into mechanical motion, allowing the robot to move its joints and manipulate physical objects."
+              },
+              {
+                "id": "ai-m5-q3",
+                "question": "What is robotic perception, and why is it crucial for autonomous robots?",
+                "answer": "Robotic perception is the process by which a robot interprets data from its sensors to understand its environment, such as identifying obstacles, recognizing objects, or mapping a room. It is absolutely crucial because an autonomous robot cannot safely navigate, plan paths, or perform useful tasks if it does not accurately understand the physical space around it."
+              },
+              {
+                "id": "ai-m5-q4",
+                "question": "Briefly explain the concept of swarm robotics.",
+                "answer": "Swarm robotics is a field that studies how large groups of relatively simple, often identical robots can coordinate their behaviors to perform complex tasks through decentralized control and local communication. It takes inspiration from social insects like ants or bees, focusing on building robust, scalable, and flexible multi-robot systems."
+              },
+              {
+                "id": "ai-m5-q5",
+                "question": "Name two industries where robots are commonly used and briefly describe their applications.",
+                "answer": "In the manufacturing industry, robotic arms are extensively used for repetitive tasks like welding, painting, and assembly due to their unmatched speed and precision. In the healthcare industry, surgical robots are used to assist surgeons in performing minimally invasive procedures with enhanced dexterity, stability, and control."
+              },
+              {
+                "id": "ai-m5-q6",
+                "question": "What is overfitting in the context of machine learning, and why is it a limitation?",
+                "answer": "Overfitting occurs when a machine learning model learns the training data too well, memorizing the noise and random fluctuations rather than the underlying pattern. This is a severe limitation because it prevents the model from generalizing, meaning it will perform very poorly when presented with new, unseen data in real-world scenarios."
+              },
+              {
+                "id": "ai-m5-q7",
+                "question": "Explain one ethical concern related to the use of AI in surveillance.",
+                "answer": "One major ethical concern is the severe erosion of personal privacy, as AI-powered surveillance using facial recognition and tracking can continuously monitor individuals' movements and associations without their consent. This can lead to a chilling effect on free expression and potentially enable authoritarian overreach."
+              },
+              {
+                "id": "ai-m5-q8",
+                "question": "Define algorithmic bias and provide an example of its impact.",
+                "answer": "Algorithmic bias occurs when an AI system produces systematically prejudiced or unfair outputs due to flawed assumptions in the algorithm or imbalances in the training data. For example, a biased AI recruiting tool might systematically downgrade resumes belonging to female candidates if it was trained purely on historical data from a heavily male-dominated workforce."
+              },
+              {
+                "id": "ai-m5-q9",
+                "question": "Why is building trust important in AI applications?",
+                "answer": "Building trust is vital because human users, whether they are doctors relying on an AI diagnosis or passengers riding in self-driving cars, will not adopt or correctly use AI systems if they do not believe the system is safe, reliable, and transparent. Without trust, even highly capable AI technologies will face public rejection and fail to deliver their potential benefits."
+              },
+              {
+                "id": "ai-m5-q10",
+                "question": "Name one potential safety risk associated with the deployment of AI in critical systems.",
+                "answer": "A major safety risk is the potential for catastrophic failure in systems like autonomous vehicles or automated medical dosing due to unforeseen edge cases that the AI was not trained to handle. If the AI makes an unpredictable, erroneous decision in these high-stakes environments, it can directly result in human injury or loss of life."
+              }
+            ],
+            "8": []
+          }
+        }
+      ]
+    }
+  ]
+}
